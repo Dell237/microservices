@@ -1,0 +1,41 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "ProductApplication",
+      "request": "launch",
+      "mainClass": "com.dely.product.ProductApplication",
+      "projectName": "product"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-ConfigServerApplication<config-server>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.dely.config_server.ConfigServerApplication",
+      "projectName": "config-server",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-DiscoveryApplication<discovery>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.dely.discovery.DiscoveryApplication",
+      "projectName": "discovery",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-EcommerceApplication<ecommerce>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.dely.ecommerce.EcommerceApplication",
+      "projectName": "ecommerce",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
